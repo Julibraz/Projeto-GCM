@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    font-style: arial, sans-serif;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -50,5 +51,9 @@ header nav ul li{
     margin-top: 5px;
     margin-left: 50px;
     font-size: 20px;
+}
+
+header nav ul li a{
+    color: white;
     text-decoration: none;
 }
