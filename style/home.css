@@ -12,6 +12,7 @@ body{
 /*cabeçalho*/
 header nav{
     width: 100%vw;
+    height: 75vh;
     align-items: flex-start;
     display: flex;
     margin: 0px;
@@ -30,11 +31,11 @@ nav-container{
     color: white;
 }
 
-nav-container p{
+nav-container h2{
     font-size: 50px;
     align-self: center;
     margin-left: 80px;
-    margin-top: 100px;
+    margin-top: 30vh;
 }
 
 header nav ul{
