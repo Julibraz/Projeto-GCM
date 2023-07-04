@@ -1,0 +1,39 @@
+footer{
+    background-color: #e3e8e6;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    max-width: 50%vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.navegar{
+    max-width: 50%vw;
+    margin: 0 auto;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegar p1 a{
+    color: #1067e8;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navegar a{
+    color: black;
+    text-decoration: none;
+}
