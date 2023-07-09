@@ -1,11 +1,12 @@
 header nav{
-    width: 100%;
+    width: 100%vw;
     align-items: flex-start;
     display: flex;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    color: black;
+    background-color: #333;
+    color: #fff;
 }
 
 header nav ul{
@@ -25,7 +26,6 @@ header nav ul li{
     font-size: 20px;
 }
 header nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
-
