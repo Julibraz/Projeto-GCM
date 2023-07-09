@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Projeto-GCM/style/relatos.css">
-    <link rel="stylesheet" href="/Projeto-GCM/cabeçalho.css">
-    <link rel="stylesheet" href="/Projeto-GCM/rodape.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <title>Relatos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="/Projeto-GCM/style/relatos.css">
+  <link rel="stylesheet" href="/Projeto-GCM/cabeçalho.css">
+  <link rel="stylesheet" href="/Projeto-GCM/rodape.css">
+  <title>Relatos</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Curso de Análise e Desenvolvimento de Sistemas</h1>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="relatos.html">Relatos</a></li>
+  <header>
+    <nav>
+      <h1>Curso de Análise e Desenvolvimento de Sistemas</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="relatos.html">Relatos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            </ul>
-        </nav>
-    </header>
-
-    <div class="carousel">
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/IzzXuWWI9DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zuYmohmse8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5IIVaKTAo4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LHC0JHCk4Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/29wlI05NRBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+  <!-- Conteúdo do carrossel de vídeos -->
+  <div class="carousel">
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IzzXuWWI9DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zuYmohmse8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5IIVaKTAo4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
+    <!-- Adicione mais vídeos conforme necessário -->
+  </div>
 
+  <!--Rodapé-->
+  <footer>
+    <div class="rodape">
+      <div class="info">
+        <h1>Tecnológo em Análise e Desenvolvimento de Sistemas</h1>
+        <p>IFPB - Campus Cajazeiras <br> Rua José Antônio da Silva, n° 300 <br> Jardim Óasis, Cajazeiras - PB</p>
+      </div>
+      <div class="navegar">
+        <a href="home.html"><p>Home</p></a>
+        <a href="sobre.html"><p>Sobre</p></a>
+        <p1><a href="relatos.html"><p>Relatos</p></a></p1>
+      </div>
+    </div>
+  </footer>
 
-    <!--Rodapé-->
-    <footer>
-        <div class="rodape">
-            <div class="info">
-                <h1>Tecnológo em Análise e Desenvolvimento de Sistemas</h1>
-                <p>IFPB - Campus Cajazeiras <br> Rua José Antônio da Silva, n° 300 <br> Jardim Óasis, Cajazeiras - PB</p>
-            </div>
-            <div class="navegar">
-                <a href="home.html"><p>Home</p></a>
-                <a href="sobre.html"><p>Sobre</p></a>
-                <p1><a href="relatos.html"><p>Relatos</p></a></p1>
-            </div>
-        </div>
-    </footer>
-    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
 </body>
 </html>
