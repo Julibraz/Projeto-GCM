@@ -7,3 +7,89 @@ body{
     max-width: 100%;
     overflow-x: hidden;
 }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .content ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .navegar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .navegar a:hover {
+    text-decoration: underline;
+  }
+  
